@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+</head>
+<body>
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img 
+            class="preview" 
+            alt="A lovely dog sitting patiently" 
+            src="nicelad2.png"
+            onmouseover="upDate(this)" 
+            onmouseout="unDo()"
+        >
+        <img 
+            class="preview" 
+            alt="He's striking a pose!" 
+            src="nicelad3.png" 
+            onmouseover="upDate(this)" 
+            onmouseout="unDo()"
+        >
+        <img 
+            class="preview" 
+            alt="Look at this good boi!" 
+            src="nicelad4.png" 
+            onmouseover="upDate(this)" 
+            onmouseout="unDo()"
+        >
+    </div>
+</body>
+</html>

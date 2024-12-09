@@ -1,0 +1,43 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Light beige background */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the main display area */
+#image {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto 20px;
+    line-height: 300px;
+    color: #333; /* Dark text */
+    background-color: #f5f5dc; /* Light beige */
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #333; /* Dark border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Preview image styling */
+.preview {
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.preview:hover {
+    transform: scale(1.1);
+    border-color: #8e44ad; /* Purple hover border */
+}
